@@ -7,10 +7,10 @@ extra_cheese = input("Do you want extra cheese? Y or N ")
 
 #Write your code below this line 👇
 
-bill = 0 # I create a variable or account "bill" with the value of 0.
+bill = 0 
 
 if size == "S":
-    bill += 15 #I now start to add value to the variable account or bill.
+    bill += 15 
 elif size == "M":
     bill += 20
 elif size == "L":
@@ -30,4 +30,4 @@ if extra_cheese == "Y":
     if "Y":
         bill += 1
 
-print(f"Your final bill is: ${bill}.") #Using an F-string i print out the bill to the customer to present the bill.
+print(f"Your final bill is: ${bill}.") 

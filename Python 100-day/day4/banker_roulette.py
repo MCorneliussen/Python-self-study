@@ -6,7 +6,7 @@ names = names_string.split(", ") # use the comma to split the list so that a lis
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-list_count = len(names) #I use the len() function to get the total amount of list
+list_count = len(names) 
 
 random = random.randint(0, list_count) #Made a variable that picks random number from index 0 up to the total amount of people in the list.
 person = names[random] #Now i pick a random person out of the list "names".

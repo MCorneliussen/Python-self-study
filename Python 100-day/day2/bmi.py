@@ -9,4 +9,4 @@ print(int(bmi))
 
 
 
-#Extra notes. Tought one, messed around for 10 minutes just to realize that the input is in meters and not centimeters.
+# 10 minutes just to realize that the input is in meters and not centimeters.

@@ -17,4 +17,4 @@ print("a: " + a)
 print("b: " + b)
 
 
-#Added two variables to temporarily store the data - In retrospect i could've used just one variable and save a line of code.
+#Added two variables to temporarily store the data - thinking about it i could've used just one variable and save a line of code.
