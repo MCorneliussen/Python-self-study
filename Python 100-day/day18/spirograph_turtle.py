@@ -13,16 +13,16 @@ def random_color():
 
 johnny = t.Turtle()
 johnny.shape("turtle")
-johnny.speed(100)
+johnny.speed("fastest")
 
 current_heading = johnny.heading()
 
 def draw_spiro(gap):
-    for _ in range(500 / gap):
+    for _ in range(int(360 / gap)):
         johnny.color(random_color())
         johnny.circle(100)
         johnny.setheading(johnny.heading() + gap)
 
-draw_spiro(5)
+draw_spiro(2)
 screen = Screen()
 screen.exitonclick()
